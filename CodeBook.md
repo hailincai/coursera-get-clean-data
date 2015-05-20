@@ -2,6 +2,7 @@ This file describes everything about how the clean script works, and what we sav
 # Environment to run the script
  - R x64 3.1.3
  - R dplyr package, you can install it by command install.packages("dplyr")
+ 
 # Steps for cleaning the data
   - Check local has data folder, if not, create the data folder
   - Download original data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" to data folder, the local file name is dataset.zip
