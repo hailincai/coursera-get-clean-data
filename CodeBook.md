@@ -2,7 +2,7 @@ This file describes everything about how the clean script works, and what we sav
 # Environment to run the script
  - R x64 3.1.3
  - R dplyr package, you can install it by command install.packages("dplyr")
- 
+
 # Steps for cleaning the data
   - Check local has data folder, if not, create the data folder
   - Download original data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" to data folder, the local file name is dataset.zip
@@ -21,6 +21,7 @@ This file describes everything about how the clean script works, and what we sav
 ## Notes
  - **any variables starts with t means time domain signals**
  - **any variables starts with f is the value after Fast Fourier      Transform (FFT) applied to corresponding time domain signals**
+
 ## Dictionary 
  - tbodyaccmeanx    
 Mean for body acceleration x 
@@ -159,10 +160,12 @@ Activity label
  - subject
 Identifier to who perform the activity
 Identifier to who perform the activity
+
 # Columns for summary.csv
 ## Notes
  - **any variables starts with avgt means time domain signals**
  - **any variables starts with avgf is the value after Fast Fourier      Transform (FFT) applied to corresponding time domain signals**
+ 
 ## Dictionary
  - activity                 
 Activity label 
